@@ -1,0 +1,179 @@
+Fair use[redigera | redigera wikitext]
+ Hoppa till: navigering, sök 	Den här artikeln behöver fler källhänvisningar för att kunna verifieras. (2015-03)
+Åtgärda genom att lägga till pålitliga källor (fotnoter). Fakta utan källhänvisning kan ifrågasättas och tas bort. Diskutera på diskussionssidan.
+
+ 
+ Fair use symbolen.[förtydliga]
+
+Fair use (ungefär "skäligt bruk") är ett samlingsbegrepp inom den amerikanska lagstiftningen och rättsfall som berör begränsningar och undantag i upphovsrätten. Om användningen av något som är upphovsrättsskyddat kan anses vara "fair use" så kan rättighetsinnehavaren inte styra eller begränsa denna användning. Begreppet fair use är unikt för amerikansk immaterialrätt men liknande principer finns i många andra länder.
+
+Principen bakom fair use skapades i domstolar och det dröjde till 1976 innan denna princip slogs fast i lagstiftningen. I "1976 Copyright Act" framgår att
+Not withstanding the provisions of section 106 and 106A, the fair use of a copyrighted work, including such use by reproduction in copies or phonorecords or by any other means specified by that section, for purposes such as criticism, comment, news reporting, teaching (including multiple copies for classroom use), scholarship or research, is not an infringement of copyright.[förtydliga]
+Innehåll  [dölj] 
+1	Beskrivning
+
+2	Fair use i praktiken
+
+3	Fair use och varumärken
+
+4	Vanliga missuppfattningar
+
+5	Motsvarigheter i andra länders lagstiftning
+
+6	Källor
+
+
+
+Beskrivning[redigera | redigera wikitext]
+
+Fair use tillåter bland annat följande utan tillstånd från rättighetsinnehavaren:
+Att en del av det skyddade verket återges för att beskriva eller kritisera detta verk. Återgivningen kan bestå av några meningar, en beskuren bild, en bild med lägre upplösning, en snutt av ett musikstycke, en bild eller filmsekvens från en video eller film. Denna användning tillåts så att inte rättighetsinnehavaren ska kunna använda upphovsrätten för att hindra negativ kritik.
+Att en del av det skyddade verket återges för att hjälpa människor att ta ställning till att köpa hela verket. Försäljare, exempelvis återförsäljare på Internet som Amazon.com brukar återge omslagsbilden eller några stycken ur verket för att deras kunder ska kunna bestämma om de vill handla verket.
+Att ett skyddat verk parodieras även om rättighetsinnehavaren ogillar att verket parodieras men samhället i stort gynnas av detta. Rapgruppen 2 Live Crew parodierade Roy Orbisons Oh, Pretty Woman och vid en senare domstolsförhandling gav domstolen dem rätt till det med hänvisning till fair use. Publiceringen av boken The Wind Done Gone ansågs också av domstolen vara rimlig då den parodierade karaktärer och händelser ur Margaret Mitchells bok Borta med vinden.
+
+Med fair use försöker man balansera å ena sidan rättsinnehavarens intresse att få ekonomisk ersättning med det samhälleliga intresset att ett verk kan spridas och användas under vissa förutsättningar utan att behöva betala.
+
+För att avgöra om användning av ett skyddat verk kan användas på basen av fair use skall man ta hänsyn till:
+Ändamålet med användningen. Används materialet i syfte att ge vinst eller ej? Det kan göra skillnad om man använder bilder ur en film i en filmrecension i ett medlemsblad eller om man använder samma bilder i en bok om årets storfilmer som man säljer i avsikt att tjäna pengar. Att det är kommersiellt innebär dock ej att det automatiskt inte är fair use. Omvänt kan även icke kommersiella produkter dömas att ej vara fair use.
+Egenskaper hos det skyddade verket. Här kan det spela roll om det skyddade verket är till exempel en skönlitterär bok eller en fackbok och om det skyddade verket har publicerats. Upphovsrätten är inte till för att skydda fakta utan för att skydda idéer och man kan anta att en domstol lättare skulle anse en användning vara fair use om det skyddade verket är en fackbok än om det är en skönlitterär text.
+Användningens omfattning. Hur mycket av det skyddade verket används i det nya verket? Om man till exempel vid en bokrecensionen återger några få strofer är möjligheten större att detta kan anses vara fair use än om man återger ett helt kapitel.
+Hur användningen återverkar på det skyddade verket. Ett skyddat verk ska normalt säljas på en marknad och om denna marknad rycks undan är det möjligt att en domstol inte skulle anse att användningen är att betrakta som fair use. Ett konkret rättsfall är när en person gjorde inofficiella trailers till kommande biograffilmer vilket förstörde marknaden för officiella trailers. Detta gäller dock bara vid verk som ersätter verk med samma syften -- att marknaden påverkas negativt av till exempel negativa recensioner eller parodi, är inte relevant.
+Fair use i praktiken[redigera | redigera wikitext]
+
+Lagen och olika rättsfall har gjort att det ofta kan vara lätt att avgöra om en viss användning är att betrakta som fair use. Det är möjligt att citera ur ett verk för att kritisera eller kommentera det, en lärare kan använda en dikt i undervisningen för att beskriva en diktares teknik, en litteraturkritiker i en tidning kan återge ett stycke av en författares verk även om tidningen publiceras i vinstsyfte.
+Fair use och varumärken[redigera | redigera wikitext]
+
+Ett varumärke som är skyddat kan användas även av andra för att referera till varumärkets produkter eller företaget självt, till exempel när man berättar om företaget och dess produkter. En förutsättning är att användningen inte vilseför konsumenterna och att man inte använder mer av varumärket än vad som är strikt nödvändigt.
+Vanliga missuppfattningar[redigera | redigera wikitext]
+"Om ett verk har copyright kan man inte återge det som fair use." En förutsättning för fair use är att det återgivna verket skyddas av upphovsrätten, annars är det helt enkelt "public domain" och kan användas fritt.
+"Om man talar om vilken källa man har kan man använda en text/bild som fair use." Att berätta vilken källa man har gör det enklare att avgöra om verket skyddas av upphovsrätten men det räcker inte för att användningen ska vara fair use. Att upphovsmannen får sitt namn publicerat tillsammans med sitt verk är en ideell rättighet som gäller oavsett vem som äger upphovsrätten.
+Motsvarigheter i andra länders lagstiftning[redigera | redigera wikitext]
+
+I svensk och finländsk lagstiftning är de närmaste motsvarigheterna till fair use citaträtten och återgivningsrätten. Det finns också andra lagrum på basen av vilka man får göra kopior av verk utan upphovsrättsinnehavarens tillstånd.[1]
+
+Den specifika innebörden av fair use eller de motsvarande rättigheterna varierar starkt från land till land.
+Källor[redigera | redigera wikitext]
+^ Se till exempel finska upphovsrättslagen, kapitel 2 ”Inskränkningar i upphovsrätten samt bestämmelser om avtalslicens”.[Dölj]
+v • d • r
+Upphovsrätt
+
+Termer	Attribuering · Copyright · Fri tillgänglighet · Följerätt · Ideell upphovsrätt · Immaterialrätt · Immateriell tillgång · Katalogskydd · Lärarundantag · Mönsterskydd · Patent · Royalty · Upphovsman · Varumärke (Varumärkesskydd) · Verkshöjd	
+
+Sverige	Boktryckerireglementet 1752 · Internationell upphovsrättsförordning · Klassikerskyddet · Namnlagen i Sverige · Upphovsrättslagen · U. i Sverige
+
+Internationellt
+ och i andra länder	ACTA · Bernkonventionen · Copyright Term Extension Act · HADOPI-lagen · Upphovsrätt i Finland · Upphovsrätt i Indien · Upphovsrättens historia · WIPO (Digital Millennium Copyright Act)
+
+Alternativ, brott
+ och inskränkningar	Brott mot upphovsrättslagen · Copyfraud · Copyfree · Copyleft · Citaträtt · Eftertryck · Fair use · "Fanart" · Panoramafrihet · Plagiat (Plagiatkontroll) · Piratkopiering · Public domain
+
+Se även Mall:Immaterialrättsaktivism
+
+
+Kategorier: Juridiska termer
+Immaterialrätt
+Navigeringsmeny
+Inte inloggad
+Diskussion
+Bidrag
+Skapa konto
+Logga in
+Artikel
+Diskussion
+Visa
+Redigera
+Redigera wikitext
+Visa historik
+ 
+Huvudsida
+Skriv en ny artikel
+Deltagarportalen
+Bybrunnen
+Senaste ändringarna
+Slumpartikel (−bot)
+Ladda upp filer
+Stöd Wikipedia
+Kontakta Wikipedia
+Hjälp
+Skriv ut/exportera
+Skapa en bok
+Ladda ner som PDF
+Utskriftsvänlig version
+Verktyg
+Sidor som länkar hit
+Relaterade ändringar
+Specialsidor
+Permanent länk
+Sidinformation
+Wikidataobjekt
+Citera denna sida
+Språk
+Alemannisch
+العربية
+অসমীয়া
+Azərbaycanca
+Български
+Bosanski
+Català
+Čeština
+Dansk
+Deutsch
+Eesti
+English
+Español
+Esperanto
+Euskara
+فارسی
+Français
+Galego
+ગુજરાતી
+한국어
+Hrvatski
+Ilokano
+Bahasa Indonesia
+Íslenska
+Italiano
+עברית
+Basa Jawa
+ქართული
+Kiswahili
+Lëtzebuergesch
+Magyar
+Македонски
+മലയാളം
+Bahasa Melayu
+Nederlands
+日本語
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Shqip
+සිංහල
+Simple English
+Slovenčina
+Slovenščina
+Српски / srpski
+Srpskohrvatski / српскохрватски
+Suomi
+தமிழ்
+తెలుగు
+ไทย
+Türkçe
+Українська
+اردو
+Vèneto
+Tiếng Việt
+粵語
+Žemaitėška
+中文
+Redigera länkar
+ Sidan ändrades senast den 23 juni 2015 kl. 08.36.
+Wikipedias text är tillgänglig under licensen Creative Commons Erkännande-dela-lika 3.0 Unported. För bilder, se respektive bildsida (klicka på bilden). Se vidare Wikipedia:Upphovsrätt och användarvillkor.
+Wikimedias integritetspolicy
+Om Wikipedia
+Förbehåll
+Utvecklare
+Cookie statement
+Mobil vy

@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 
 #import experiment5
 
-MAX_FEATURE_COUNT = 4029 # Max is 4029 right now because everything else is filtered.
+MAX_FEATURE_COUNT = 10 # Max is 4029 right now because everything else is filtered.
 MAX_TIME_SECONDS = 20
 MAX_SAMPLE_COUNT = 0 #0 # Unlimited 500
 
@@ -80,6 +80,7 @@ class Features(object):
         return freq
 
     def map_to_classes(self, text_classes):
+        assert len(self.class_list)
         target = [0] * len(self.class_list)
         for text_class in text_classes.split(","):
             if text_class in self.class_to_index:
@@ -161,28 +162,16 @@ def main():
                                                 WORD_SETS_TO_TRY))
         features = build_features(data_files)
 
-    #    train_ds = build_dataset(TRAIN_TEXTCLASSES, features)
-    #    test_ds = build_dataset(TEST_TEXTCLASSES, features)
+        files_with_lan = []
+        for language, file_list in data_files.iteritems():
+            for data_file in file_list:
+                files_with_lan.append((data_file, language))
 
-        random.shuffle(calibre_txt_and_meta_files)
+        random.shuffle(files_with_lan)
         SPLIT_PCT = 0.7
 
-        samples = get_samples_from_txt_meta(calibre_txt_and_meta_files,
+        samples = get_samples_from_txt_meta(files_with_lan,
                                             features, 2 * MAX_SAMPLE_COUNT)
-
-        # This "converged" after 10000 iterations and then it became worse
-        # and worse. Reached a meaningful but bad result after 8000
-        # iterations.
-        BACKPROP_MOMENTUM = 0.1
-        BACKPROP_WEIGHTDECAY = 0.001
-        BACKPROP_LEARNINGRATE = 0.01
-        BACKPROP_LRDECAY = 1.0
-
-        # This seems to be much faster (meaningful (but bad) result after 50 iterations). Became worse after 140 iterations.
-        BACKPROP_MOMENTUM = 1
-        BACKPROP_WEIGHTDECAY = 0.001
-        BACKPROP_LEARNINGRATE = 0.01
-        BACKPROP_LRDECAY = 1.0
 
         # Current
         BACKPROP_MOMENTUM = 0.001
@@ -313,8 +302,8 @@ def trainNetwork(train_ds, test_ds,
     lastLayer = inLayer
     connection_number = 0 # connection-0 is the connection from the input layer.
     for hidden_layer_size in hidden_layers:
-        hiddenLayer = SigmoidLayer(hidden_layer_size)
-#        hiddenLayer = TanhLayer(hidden_layer_size)
+#        hiddenLayer = SigmoidLayer(hidden_layer_size)
+        hiddenLayer = TanhLayer(hidden_layer_size)
         fnn.addModule(hiddenLayer)
         fnn.addConnection(
             FullConnection(lastLayer, hiddenLayer,
@@ -333,13 +322,6 @@ def trainNetwork(train_ds, test_ds,
     fnn.addModule(bias)
     fnn.addConnection(FullConnection(bias, outLayer))
     fnn.sortModules()
-
-#    fnn = buildNetwork(train_ds.indim,
-#                       30 * train_ds.outdim / 2, # hidden layer.
-#                       30 * train_ds.outdim / 2, # hidden layer.
-#                       30 * train_ds.outdim / 2, # hidden layer.
-#                       train_ds.outdim, outclass=SigmoidLayer)
-#    print(fnn)
 
     trainer = BackpropTrainer(fnn, dataset=train_ds,
                               learningrate=learningrate,
@@ -361,7 +343,7 @@ def trainNetwork(train_ds, test_ds,
     try:
         start_time = time.time()
         for i in range(200):
-            for _ in xrange(5):
+            for _ in xrange(500):
                 train_algo_error = trainer.train() * 100.0
                 if math.isnan(train_algo_error):
                     break
@@ -457,24 +439,7 @@ def calc_feature_importance(fnn, features):
         percentile = (weight - min_value) / (max_value - min_value)
         feature_percentiles[word] = percentile
 
-#    sorted_word_and_weight = sorted(word_and_weight, reverse=True)
-#    for weight, word in sorted_word_and_weight[:50]:
-#        print("%s  %g" % (word, weight))
-#    for weight, word in sorted_word_and_weight[-50:]:
-#        print("%s  %g" % (word, weight))
-
     return feature_percentiles
-
-#     print("Or is this the value?")
-#     for i in xrange(indim):
-#         word = features.word_list[i]
-#         numbers = []
-# #        sumsquares = 0
-#         for o in xrange(outdim):
-#             number = params[i * outdim + o]
-# #            sumsquares = sumsquares + number * number
-#             numbers.append(number)
-#         print("%s: %g (%r)" % (word, sum(numbers), numbers))
 
 def print_most_important_features(feature_percentile_list, features):
     avg_percentile_for_word = []
@@ -514,7 +479,7 @@ def print_classifications(textclasses, fnn, features):
 def print_classifications_from_txt_meta(txt_and_meta_files, fnn, features):
 
     for txt_file, metadata_file in txt_and_meta_files:
-        text = experiment5.read_text(txt_file)
+        text = read_text(txt_file)
         print_classification_for_text(os.path.basename(txt_file), text, fnn, features)
 
 def percentClassErrorAndF1(fnn, ds, ds_labels, features, verbose=False):
@@ -678,44 +643,8 @@ MEANINGLESS_WORDS = (
 
 MEANINGLESS_WORDS = ()
 
-def load_base_classes_data(txt_and_meta_files):
-    classes = Counter()
-    if os.path.isfile("experiment4.classes.json"):
-        print("Using classes cache")
-        try:
-            with codecs.open("experiment4.classes.json", "r", "utf-8") as f:
-                classes = Counter(json.load(f))
-        except ValueError:
-            print("Something wrong with the cache.")
-
-    if not classes:
-        # for text, text_classes in textclasses:
-        #     classes.update([x for x in text_classes.split(",") if x in SUPPORTED_TAGS])
-
-        txt_file_count = len(txt_and_meta_files)
-        for txt_file, metadata_file in txt_and_meta_files:
-            raw_tags = experiment5.read_tags(metadata_file)
-            tags = []
-            for raw_tag in raw_tags:
-                raw_tag = raw_tag.lower()
-                if raw_tag in SUPPORTED_TAGS:
-                    tags.append(raw_tag)
-                if "-" in raw_tag:
-                    general,_,sub = raw_tag.partition("-")
-                    general = general.strip();
-                    if general in SUPPORTED_TAGS:
-                        tags.append(general)
-            if not tags:
-#                print("%s has no supported tags (only %s)" % (os.path.basename(txt_file),
-#                                                              raw_tags))
-                pass
-            classes.update(tags)
-
-        print("Saving classes cache")
-        with codecs.open("experiment4.classes.json", "w", "utf-8") as f:
-            json.dump(dict(classes), f)
-
-    return classes
+def load_base_classes_data(data_files):
+    return data_files.keys()
 
 def read_text(text_file):
     with codecs.open(text_file, "r", "utf-8", errors="ignore") as f:
@@ -770,9 +699,9 @@ def load_base_word_data(data_files):
         for i in xrange(len(words_per_book)):
             words_per_book[i] = dict(words_per_book[i])
         print("Saving word cache")
-        with codecs.open("experiment4.words.json", "w", "utf-8") as f:
+        with codecs.open("landet.words.json", "w", "utf-8") as f:
             json.dump(dict(words), f)
-        with codecs.open("experiment4.word_stats.json", "w", "utf-8") as f:
+        with codecs.open("landet.word_stats.json", "w", "utf-8") as f:
             json.dump(word_stats, f)
 
     return words, word_stats
@@ -788,39 +717,16 @@ def build_features(data_files):
 
     print("Number of different words: %d" % len(words))
 #    print(words.most_common(1000))
-    # Remove all words only being in the set once. They can too easily
-    # be used to overtrain.
-    for word, count in words.items():
-        if count < 5000:
-            del words[word]
-        if len(word) == 1 and word not in ('i', 'a'):
-            del words[word]
-        if len(word) > 20:
-            # This is not a word.
-            del words[word]
-        # TODO: Fix the words splitter so these don't appear.
-        if len(word) > 2 and word[-1] == "." and word[-2] != ".":
-            del words[word]
-
 
     # Numbers? (TODO)
 
-    # Remove words that are so common that they don't mean anything.
-    for word in MEANINGLESS_WORDS:
-        del words[word]
-
     print("Number of different words after filtering: %d" % len(words))
-#    print("100 most commonly used word:")
-#    print(words.most_common(100))
+    print("100 most commonly used word:")
+    print(words.most_common(100))
     print("The classes/tags we support")
     print(classes)
 
-    EXTRA_WORDS = [] # PROMISING_FANTASY
-#    for word in MEANINGLESS_FANTASY:
-#        del words[word]
-
     words_to_use_as_features = set(
-        list(EXTRA_WORDS) +
         [x for x, y in words.most_common(MAX_FEATURE_COUNT)])
     words_to_use_as_features = random.sample(list(words),
                                              MAX_FEATURE_COUNT)
@@ -838,10 +744,7 @@ def build_features(data_files):
     word_to_index = dict(zip(word_list, word_index))
 #    print(word_to_index)
 
-    class_list = []
-    for c in classes:
-        if c in INTERESTING_CLASSES:
-            class_list.append(c)
+    class_list = data_files.keys()
 
     class_index = range(len(class_list))
     class_to_index = dict(zip(class_list, class_index))
@@ -867,9 +770,9 @@ def filter_tags(raw_tags, class_to_index):
             tags.append(raw_tag)
     return tags
 
-def convert_text_to_sample(text, tags, features):
+def convert_text_to_sample(text, language, features):
     freq = features.map_to_frequency(text)
-    target = features.map_to_classes(tags)
+    target = features.map_to_classes(language)
 
     return (freq, target)
 
@@ -893,15 +796,13 @@ def analyze_inner_thread_fn(file_tuple_list, features):
     samples = []
     count = len(file_tuple_list)
     for index in xrange(count):
-        txt_file, metadata_file = file_tuple_list[index]
-        raw_tags = experiment5.read_tags(metadata_file)
-        sample_label = os.path.basename(txt_file)
+        txt_file, language = file_tuple_list[index]
+        sample_label = "%s [%s]" % (os.path.basename(txt_file), language)
         print("Analyzing [%d/%d] %-50s   \r" %
               (index + 1, count, sample_label), end="")
-        text = experiment5.read_text(txt_file)
-        tags = filter_tags(raw_tags, features.class_to_index)
+        text = read_text(txt_file)
 
-        sample = convert_text_to_sample(text, ",".join(tags), features)
+        sample = convert_text_to_sample(text, language, features)
         samples.append((sample[0], sample[1], sample_label))
     return samples
 

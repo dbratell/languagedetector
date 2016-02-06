@@ -1,0 +1,538 @@
+Fair use
+From Wikipedia, the free encyclopedia
+ Jump to: navigation, search 
+For fair use in trademark law, see Fair use (US trademark law). For the broadband bandwidth management policy, see Fair Access Policy. For fair use of copyrighted works on Wikipedia, see Wikipedia:Non-free content.Intellectual property law and Intellectual rights
+Primary rights
+Copyright · Patent · Trademark · Trade secret · Geographical indication 
+Sui generis rights
+Authors' rights · Database right · Indigenous intellectual property · Industrial design right · Integrated circuit layout design protection · Moral rights · Plant breeders' rights · Related rights · Supplementary protection certificate · Utility model 
+Related topics
+Anti-copyright · Bioprospecting · Limitations and exceptions to copyright 
+(Fair dealing · Fair use · Right to quote) 
+Orphan works · Public domain · Societal views · Traditional safety valves 
+Outline of intellectual property
+v · t · e 
+
+
+Fair use is a legal doctrine that permits limited use of copyrighted material without acquiring permission from the rights holders. It is one type of limitation and exception to the exclusive rights copyright law grants to the author of a creative work. Examples of fair use in United States copyright law include commentary, search engines, criticism, parody, news reporting, research, teaching, library archiving and scholarship. It provides for the legal, unlicensed citation or incorporation of copyrighted material in another author's work under a four-factor balancing test.
+
+The term "fair use" originated in the United States.[1] A similar-sounding principle, fair dealing, exists in some other common law jurisdictions but in fact it is more similar in principle to the enumerated exceptions found under civil law systems. Civil law jurisdictions have other limitations and exceptions to copyright.
+
+Fair use is one of the traditional safety valves intended to balance the interests of copyright holders with the public interest in the wider distribution and use of creative works by allowing certain limited uses that might otherwise be considered infringement.
+Contents  [hide] 
+1	History
+
+2	U.S. fair use factors
+ 
+2.1	1. Purpose and character of the use
+
+2.2	2. Nature of the copyrighted work
+
+2.3	3. Amount and substantiality
+
+2.4	4. Effect upon work's value
+
+2.5	Other factors
+
+3	U.S. fair use procedure and practice
+
+4	Fair use in particular areas
+ 
+4.1	Fair use and text and data mining
+
+4.2	Fair use and parody
+
+4.3	Fair use on the Internet
+
+4.4	Fair use and reverse engineering
+
+4.5	Fair use and file sharing
+
+4.6	Fair use and professional communities
+
+4.7	Fair use and music sampling
+
+5	Influence internationally
+ 
+5.1	Fair use
+ 
+5.1.1	Israel
+
+5.1.2	Poland
+
+5.1.3	South Korea
+
+5.2	Fair dealing
+ 
+5.2.1	Canada
+
+5.2.2	United Kingdom
+
+6	Policy arguments about fair use
+ 
+6.1	The economic benefit of fair use
+
+7	Fair Use Week
+
+8	See also
+
+9	References
+
+10	Further reading
+
+11	External links
+
+
+
+History[edit]
+
+The 1709 Statute of Anne, an act of the Parliament of Great Britain, created copyright law to replace a system of private ordering enforced by the Stationers' Company. The Statute of Anne did not provide for legal unauthorized use of material protected by copyright. In Gyles v Wilcox,[2] the Court of Chancery established the doctrine of "fair abridgement," which permitted unauthorized abridgement of copyrighted works under certain circumstances. Over time, this doctrine evolved into the modern concepts of fair use and fair dealing. Fair use was a common-law doctrine in the U.S. until it was incorporated into the Copyright Act of 1976, 17 U.S.C. § 107.
+
+In response to perceived over-expansion of copyrights, several electronic civil liberties and free expression organizations began in the 1990s to add fair use cases to their dockets and concerns. These include the Electronic Frontier Foundation ("EFF"), the American Civil Liberties Union, the National Coalition Against Censorship, the American Library Association, numerous clinical programs at law schools, and others. The "Chilling Effects" archive was established in 2002 as a coalition of several law school clinics and the EFF to document the use of cease and desist letters. Most recently, in 2006, Stanford University began an initiative called "The Fair Use Project" (FUP) to help artists, particularly filmmakers, fight lawsuits brought against them by large corporations.
+U.S. fair use factors[edit]17 U.S.C. § 107
+
+Notwithstanding the provisions of sections 17 U.S.C. § 106 and 17 U.S.C. § 106A, the fair use of a copyrighted work, including such use by reproduction in copies or phonorecords or by any other means specified by that section, for purposes such as criticism, comment, news reporting, teaching (including multiple copies for classroom use), scholarship, or research, is not an infringement of copyright. In determining whether the use made of a work in any particular case is a fair use the factors to be considered shall include:
+the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes;
+the nature of the copyrighted work;
+the amount and substantiality of the portion used in relation to the copyrighted work as a whole; and
+the effect of the use upon the potential market for or value of the copyrighted work.
+
+The fact that a work is unpublished shall not itself bar a finding of fair use if such finding is made upon consideration of all the above factors.[3]
+
+ 
+ Joseph Story wrote the opinion in Folsom v. Marsh.
+
+The four factors of analysis for fair use set forth above derive from the opinion of Joseph Story in Folsom v. Marsh,[1] in which the defendant had copied 353 pages from the plaintiff's 12-volume biography of George Washington in order to produce a separate two-volume work of his own.[4] The court rejected the defendant's fair use defense with the following explanation:
+
+[A] reviewer may fairly cite largely from the original work, if his design be really and truly to use the passages for the purposes of fair and reasonable criticism. On the other hand, it is as clear, that if he thus cites the most important parts of the work, with a view, not to criticize, but to supersede the use of the original work, and substitute the review for it, such a use will be deemed in law a piracy ...
+
+In short, we must often ... look to the nature and objects of the selections made, the quantity and value of the materials used, and the degree in which the use may prejudice the sale, or diminish the profits, or supersede the objects, of the original work.
+
+The statutory fair use factors quoted above come from the Copyright Act of 1976, which is codified at 17 U.S.C. § 107. They were intended by Congress to restate, but not replace, the prior judge-made law. As Judge Pierre N. Leval has written, the statute does not "define or explain [fair use's] contours or objectives." While it "leav[es] open the possibility that other factors may bear on the question, the statute identifies none."[5] That is, courts are entitled to consider other factors in addition to the four statutory factors.
+1. Purpose and character of the use[edit]
+
+The first factor is "the purpose and character of the use, including whether such use is of a commercial nature or is for nonprofit educational purposes." To justify the use as fair, one must demonstrate how it either advances knowledge or the progress of the arts through the addition of something new.
+
+A key consideration in recent fair use cases is the extent to which the use is transformative. In the 1994 decision Campbell v. Acuff-Rose Music Inc,[6] the U.S. Supreme Court held that when the purpose of the use is transformative, this makes the first factor more likely to favor fair use.[7] Before the Campbell decision, federal Judge Pierre Leval argued that transformativeness is central to the fair use analysis in his 1990 article, Toward a Fair Use Standard.[5] Blanch v. Koons is another example of a fair use case that focused on transformativeness. In 2006, Jeff Koons used a photograph taken by commercial photographer Andrea Blanch in a collage painting.[8] He appropriated a central portion of an advertisement she had been commissioned to shoot for a magazine. Koons prevailed in part because his use was found transformative under the first fair use factor.
+
+The Campbell case also addressed the subfactor mentioned in the quotation above, "whether such use is of a commercial nature or is for nonprofit educational purposes." In an earlier case, Sony Corp. of America v. Universal City Studios, Inc., the Supreme Court had stated that "every commercial use of copyrighted material is presumptively . . . unfair." In Campbell, the court clarified that this is not a "hard evidentiary presumption" and that even the tendency that commercial purpose will "weigh against a finding of fair use . . . will vary with the context." The Campbell court held that hip-hop group 2 Live Crew's parody of the song "Oh, Pretty Woman" was fair use, even though the parody was sold for profit. Thus, having a commercial purpose does not preclude a use from being found fair, even though it makes it less likely.[9]
+
+Likewise, the noncommercial purpose of a use makes it more likely to be found a fair use, but it does not make it a fair use automatically.[9] For instance, in L.A. Times v. Free Republic, the court found that the noncommercial use of LA Times content by the Free Republic Web site was not fair use, since it allowed the public to obtain material at no cost that they would otherwise pay for.
+
+Another factor is whether the use fulfills any of the "preamble purposes" also mentioned in the legislation above, as these have been interpreted as paradigmatically "transformative".[citation needed]
+
+It is arguable, given the dominance of a rhetoric of the "transformative" in recent fair use determinations, that the first factor and transformativeness in general have become the most important parts of fair use.
+2. Nature of the copyrighted work[edit]
+ 
+ The unpublished nature of J. D. Salinger's letters was a key issue in the court's analysis of the second fair use factor in Salinger v. Random House.
+
+Although the Supreme Court has ruled that the availability of copyright protection should not depend on the artistic quality or merit of a work, fair use analyses consider certain aspects of the work to be relevant, such as whether it is fictional or non-fictional.[10]
+
+To prevent the private ownership of work that rightfully belongs in the public domain, facts and ideas are not protected by copyright—only their particular expression or fixation merits such protection. On the other hand, the social usefulness of freely available information can weigh against the appropriateness of copyright for certain fixations. The Zapruder film of the assassination of President Kennedy, for example, was purchased and copyrighted by Time magazine. Yet its copyright was not upheld, in the name of the public interest, when Time tried to enjoin the reproduction of stills from the film in a history book on the subject in Time Inc v. Bernard Geis Associates.[11]
+
+In the decisions of the Second Circuit in Salinger v. Random House[12] and in New Era Publications Int'l v. Henry Holt & Co,[13] the aspect of whether the copied work has been previously published was considered crucial, assuming the right of the original author to control the circumstances of the publication of his work or preference not to publish at all. However, Judge Pierre N. Leval views this importation of certain aspects of France's droit moral d'artiste (moral rights of the artist) into American copyright law as "bizarre and contradictory" because it sometimes grants greater protection to works that were created for private purposes that have little to do with the public goals of copyright law, than to those works that copyright was initially conceived to protect.[5] This is not to claim that unpublished works, or, more specifically, works not intended for publication, do not deserve legal protection, but that any such protection should come from laws about privacy, rather than laws about copyright. The statutory fair use provision was amended in response to these concerns by adding a final sentence: "The fact that a work is unpublished shall not itself bar a finding of fair use if such finding is made upon consideration of all the above factors."
+3. Amount and substantiality[edit]
+ 
+ The Ninth Circuit has held that the use of thumbnails in image search engines is fair use.
+
+The third factor assesses the amount and substantiality of the copyrighted work that has been used. In general, the less that is used in relation to the whole, the more likely the use will be considered fair.
+
+Using most or all of a work does not bar a finding of fair use. It simply makes the third factor less favorable to the defendant. For instance, in Sony Corp. of America v. Universal City Studios, Inc. copying entire television programs for private viewing was upheld as fair use, at least when the copying is done for the purposes of time-shifting. In Kelly v. Arriba Soft Corporation, the Ninth Circuit held that copying an entire photo to use as a thumbnail in online search results did not even weigh against fair use, "if the secondary user only copies as much as is necessary for his or her intended use".
+
+However, even the use of a small percentage of a work can make the third factor unfavorable to the defendant, because the "substantiality" of the portion used is considered in addition to the amount used. For instance, in Harper & Row v. Nation Enterprises,,[14] the U.S. Supreme Court held that a news article's quotation of fewer than 400 words from President Ford's 200,000-word memoir was sufficient to make the third fair use factor weigh against the defendants, because the portion taken was the "heart of the work." This use was ultimately found not to be fair.[14]
+4. Effect upon work's value[edit]
+
+The fourth factor measures the effect that the allegedly infringing use has had on the copyright owner's ability to exploit his or her original work. The court not only investigates whether the defendant's specific use of the work has significantly harmed the copyright owner's market, but also whether such uses in general, if widespread, would harm the potential market of the original. The burden of proof here rests on the copyright owner, who must demonstrate the impact of the infringement on commercial use of the work.
+
+For example, in Sony Corp v. Universal City Studios,[15] the copyright owner, Universal, failed to provide any empirical evidence that the use of Betamax had either reduced their viewership or negatively impacted their business. In Harper & Row, the case regarding President Ford's memoirs, the Supreme Court labeled the fourth factor "the single most important element of fair use" and it has enjoyed some level of primacy in fair use analyses ever since. Yet the Supreme Court's more recent announcement in Campbell v. Acuff-Rose Music Inc[6] that "all [four factors] are to be explored, and the results weighed together, in light of the purposes of copyright" has helped modulate this emphasis in interpretation.
+
+In evaluating the fourth factor, courts often consider two kinds of harm to the potential market for the original work. First, courts consider whether the use in question acts as a direct market substitute for the original work. In Campbell, the Supreme Court stated that "when a commercial use amounts to mere duplication of the entirety of the original, it clearly supersedes the object of the original and serves as a market replacement for it, making it likely that cognizable market harm to the original will occur". In one instance, a court ruled that this factor weighed against a defendant who had made unauthorized movie trailers for video retailers, since his trailers acted as direct substitutes for the copyright owner's official trailers.[16]
+
+Second, courts also consider whether potential market harm might exist beyond that of direct substitution, such as in the potential existence of a licensing market. This consideration has weighed against commercial copy shops that make copies of articles in course-packs for college students, when a market already existed for the licensing of course-pack copies.[17]
+
+Courts recognize that certain kinds of market harm do not negate fair use, such as when a parody or negative review impairs the market of the original work. Copyright considerations may not shield a work against adverse criticism.
+Other factors[edit]
+
+As explained by Judge Leval, courts are permitted to include additional factors in their analysis.[5]
+
+One such factor is acknowledgement of the copyrighted source. Giving the name of the photographer or author may help, but it is does not automatically make a use fair. While plagiarism and copyright infringement are related matters, they are not identical. Plagiarism (using someone's words, ideas, images, etc. without acknowledgment) is a matter of professional ethics. Copyright is a matter of law, and protects exact expression, not ideas. One can plagiarize even a work that is not protected by copyright, for example by passing off a line from Shakespeare as one's own. Conversely, attribution prevents accusations of plagiarism, but it does not prevent infringement of copyright. For example, reprinting a copyrighted book without permission, while citing the original author, would be copyright infringement but not plagiarism.
+U.S. fair use procedure and practice[edit]
+
+The U.S. Supreme Court described fair use as an affirmative defense in Campbell v. Acuff-Rose Music, Inc.[6] This means that in litigation on copyright infringement, the defendant bears the burden of raising and proving that the use was fair and not an infringement. Thus, fair use need not even be raised as a defense unless the plaintiff first shows (or the defendant concedes) a "prima facie" case of copyright infringement. If the work was not copyrightable, the term had expired, or the defendant's work borrowed only a small amount, for instance, then the plaintiff cannot make out a prima facie case of infringement, and the defendant need not even raise the fair use defense. In addition, fair use is only one of many limitations, exceptions, and defenses to copyright infringement. Thus, a prima facie case can be defeated without relying on fair use. For instance, the Audio Home Recording Act establishes that it is legal, using certain technologies, to make copies of audio recordings for non-commercial personal use.[18]
+
+Some copyright owners claim infringement even in circumstances where the fair use defense would likely succeed, in hopes that the user will refrain from the use rather than spending resources in his defense. Strategic lawsuit against public participation (SLAPP) cases such as these—alleging copyright infringement, patent infringement, defamation, or libel—often come into conflict with the defendant's right to freedom of speech, and has prompted some jurisdictions to pass anti-SLAPP legislation which raises the plaintiff's burdens and risk.
+
+Although fair use ostensibly permits certain uses without liability, many content creators and publishers try to avoid a potential court battle by seeking a legally unnecessary license from copyright owners for any use of non-public domain material, even in situations where a fair use defense would likely succeed. The simple reason is that the license terms negotiated with the copyright owner may be much less expensive than defending against a copyright suit, or having the mere possibility of a lawsuit threaten the publication of a work in which a publisher has invested significant resources.
+
+The frequent argument over whether fair use is a "right" or a "defense" is generated by confusion over the use of the term "affirmative defense."[19] "Affirmative defense" is simply a term of art from litigation reflecting the timing in which the defense is raised. It does not distinguish between "rights" and "defenses", and so it does not characterize the substance of the defendant's actions as "not a right but a defense".
+
+Fair use rights take precedence over the author's interest. Thus the copyright holder cannot use a non-binding disclaimer, or notification, to revoke the right of fair use on works. However, binding agreements such as contracts or licence agreements may take precedence over fair use rights.[20]
+
+The practical effect of the fair use doctrine is that a number of conventional uses of copyrighted works are not considered infringing. For instance, quoting from a copyrighted work in order to criticize or comment upon it or teach students about it, is considered a fair use. Certain well-established uses cause few problems. A teacher who prints a few copies of a poem to illustrate a technique will have no problem on all four of the above factors (except possibly on amount and substantiality), but some cases are not so clear. All the factors are considered and balanced in each case: a book reviewer who quotes a paragraph as an example of the author's style will probably fall under fair use even though he may sell his review commercially; but a non-profit educational website that reproduces whole articles from technical magazines will probably be found to infringe if the publisher can demonstrate that the website affects the market for the magazine, even though the website itself is non-commercial.
+
+Fair use is decided on a case by case basis, on the entirety of circumstances. The same act done by different means or for a different purpose can gain or lose fair use status. Even repeating an identical act at a different time can make a difference due to changing social, technological, or other surrounding circumstances.[7][21]
+Fair use in particular areas[edit]
+Fair use and text and data mining[edit]
+
+The transformative nature of computer based analytical processes such as text mining, web mining and data mining has led many to form the view that such uses would be protected under fair use. This view was substantiated by the rulings of Judge Denny Chin in Authors Guild, Inc. v. Google, Inc., a case involving mass digitisation of millions of books from research library collections. As part of the ruling that found the book digitisation project was fair use, the judge stated "Google Books is also transformative in the sense that it has transformed book text into data for purposes of substantive research, including data mining and text mining in new areas".[22][23]
+
+Text and data mining was subject to further review in Authors Guild v. HathiTrust, a case derived from the same digitization project mentioned above. Judge Harold Baer, in finding that the defendant's uses were transformative, stated that 'the search capabilities of the [HathiTrust Digital Library] have already given rise to new methods of academic inquiry such as text mining."[24][25]
+Fair use and parody[edit]
+
+Producers or creators of parodies of a copyrighted work have been sued for infringement by the targets of their ridicule, even though such use may be protected as fair use. These fair use cases distinguish between parodies, which use a work in order to poke fun at or comment on the work itself and satire, which use a work to poke fun at or comment on something else. Courts have been more willing to grant fair use protections to parodies than to satires, but the ultimate outcome in either circumstance will turn on the application of the four fair use factors.
+
+For example, when Tom Forsythe appropriated Barbie dolls for his photography project "Food Chain Barbie" (depicting several copies of the doll naked and disheveled and about to be baked in an oven, blended in a food mixer, and the like), Mattel lost its copyright infringement lawsuit against him because his work effectively parodies Barbie and the values she represents.[26] In Rogers v. Koons, Jeff Koons tried to justify his appropriation of Art Rogers' photograph "Puppies" in his sculpture "String of Puppies" with the same parody defense. He lost because his work was not presented as a parody of Rogers' photograph in particular, but as a satire of society at large. This was insufficient to render the use fair.[27]
+
+In Campbell v. Acuff-Rose Music Inc[6] the U.S. Supreme Court recognized parody as a potential fair use, even when done for profit. Roy Orbison's publisher, Acuff-Rose Music, had sued 2 Live Crew in 1989 for their use of Orbison's "Oh, Pretty Woman" in a mocking rap version with altered lyrics. The Supreme Court viewed 2 Live Crew's version as a ridiculing commentary on the earlier work, and ruled that when the parody was itself the product rather than mere advertising, commercial nature did not bar the defense. The Campbell court also distinguished parodies from satire, which they described as a broader social critique not intrinsically tied to ridicule of a specific work and so not deserving of the same use exceptions as parody because the satirist's ideas are capable of expression without the use of the other particular work.
+
+A number of appellate decisions have recognized that a parody may be a protected fair use, including the Second (Leibovitz v. Paramount Pictures Corp.); the Ninth (Mattel v. Walking Mountain Productions); and the Eleventh Circuits (Suntrust Bank v. Houghton Mifflin Co.). In the 2001 Suntrust Bank case, Suntrust Bank and the Margaret Mitchell estate unsuccessfully brought suit to halt the publication of The Wind Done Gone, which reused many of the characters and situations from Gone with the Wind but told the events from the point of view of the enslaved people rather than the slaveholders. The Eleventh Circuit, applying Campbell, found that The Wind Done Gone was fair use and vacated the district court's injunction against its publication.
+
+Cases in which a satirical use was found to be fair include Blanch v. Koons and Williams v. Columbia Broadcasting Systems.[7]
+Fair use on the Internet[edit]
+
+A U.S. court case from 2003, Kelly v. Arriba Soft Corporation, provides and develops the relationship between thumbnails, inline linking and fair use. In the lower District Court case on a motion for summary judgment, Arriba Soft's use of thumbnail pictures and inline linking from Kelly's website in Arriba Soft's image search engine was found not to be fair use. That decision was appealed and contested by Internet rights activists such as the Electronic Frontier Foundation, who argued that it was fair use.
+
+On appeal, the Ninth Circuit Court of Appeals found in favour of the defendant, Arriba Soft. In reaching its decision, the court utilized the statutory four-factor analysis. First, it found the purpose of creating the thumbnail images as previews to be sufficiently transformative, noting that they were not meant to be viewed at high resolution as the original artwork was. Second, the photographs had already been published, diminishing the significance of their nature as creative works. Third, although normally making a "full" replication of a copyrighted work may appear to violate copyright, here it was found to be reasonable and necessary in light of the intended use. Lastly, the court found that the market for the original photographs would not be substantially diminished by the creation of the thumbnails. To the contrary, the thumbnail searches could increase the exposure of the originals. In looking at all these factors as a whole, the court found that the thumbnails were fair use and remanded the case to the lower court for trial after issuing a revised opinion on July 7, 2003. The remaining issues were resolved with a default judgment after Arriba Soft had experienced significant financial problems and failed to reach a negotiated settlement.
+
+In August 2008, Judge Jeremy Fogel of the Northern District of California ruled in Lenz v. Universal Music Corp. that copyright holders cannot order a deletion of an online file without determining whether that posting reflected "fair use" of the copyrighted material. The case involved Stephanie Lenz, a writer and editor from Gallitzin, Pennsylvania, who made a home video of her thirteen-month-old son dancing to Prince's song Let's Go Crazy and posted the video on YouTube. Four months later, Universal Music, the owner of the copyright to the song, ordered YouTube to remove the video under the Digital Millennium Copyright Act. Lenz notified YouTube immediately that her video was within the scope of fair use, and she demanded that it be restored. YouTube complied after six weeks, rather than the two weeks required by the Digital Millennium Copyright Act. Lenz then sued Universal Music in California for her legal costs, claiming the music company had acted in bad faith by ordering removal of a video that represented fair use of the song.[28]
+Fair use and reverse engineering[edit]
+Main article: Reverse engineering § Legality
+
+There is a substantial body of fair use law regarding reverse engineering of computer software, hardware, network protocols, encryption and access control systems.[29][30]
+Fair use and file sharing[edit]
+
+In 2009, fair use appeared as a defense in lawsuits against filesharing. Charles Nesson argued that file-sharing qualifies as fair use in his defense of alleged filesharer Joel Tenenbaum.[31] Kiwi Camara, defending alleged filesharer Jammie Thomas, announced a similar defense.[32] However, the Court in the case at bar rejected the idea that file-sharing is fair use. [33]
+Fair use and professional communities[edit]
+
+In addition to considering the four fair use factors, courts deciding fair use cases also look to the standards and practices of the professional community where the case comes from.[34] Among the communities are documentarians,[35] librarians,[36] makers of Open Courseware, visual art educators,[37] and communications professors.[38]
+
+Such codes of best practices have permitted communities of practice to make more informed risk assessments in employing fair use in their daily practice.[39] For instance, broadcasters, cablecasters, and distributors typically require filmmakers to obtain errors and omissions insurance before the distributor will take on the film. Such insurance protects against errors and omissions made during the copyright clearance of material in the film. Before the Documentary Filmmakers' Statement of Best Practices in Fair Use was created in 2005, it was nearly impossible to obtain errors and omissions insurance for copyright clearance work that relied in part on fair use. This meant documentarians had either to obtain a license for the material or to cut it from their films. In many cases, it was impossible to license the material because the filmmaker sought to use it in a critical way. Soon after the best practices statement was released, all errors and omissions insurers in the U.S. shifted to begin offering routine fair use coverage.[40]
+Fair use and music sampling[edit]
+
+Before 1991, sampling in certain genres of music was accepted practice and the copyright considerations were viewed as largely irrelevant. The strict decision against rapper Biz Markie's appropriation of a Gilbert O'Sullivan song in the case Grand Upright Music, Ltd. v. Warner Bros. Records Inc.[21] changed practices and opinions overnight. Samples now had to be licensed, as long as they rose "to a level of legally cognizable appropriation."[41] This left the door open for the de minimis doctrine, for short or unrecognizable samples; such uses would not rise to the level of copyright infringement, because under the de minimis doctrine, "the law does not care about trifles." However, 3 years later, the Sixth Circuit effectively eliminated the de minimis doctrine in the Bridgeport Music, Inc. v. Dimension Films case, holding that artists must "get a license or do not sample".[42] The Court later clarified that its opinion did not apply to fair use, but between Grand Upright and Bridgeport, practice had effectively shifted to eliminate unlicensed sampling.
+Influence internationally[edit]
+
+While U.S. fair use law has been influential in some countries, some countries have drastically different fair use criteria to the U.S., and some countries do not use a fair use framework at all. Some countries have the concept of fair dealing instead of fair use, while others use different systems of limitations and exceptions to copyright. Many countries have some reference to an exemption for educational use, though the extent of this exemption varies widely.[43]
+
+Sources differ on whether fair use is fully recognized by countries other than the United States. American University's infojustice.org published a compilation of portions of over 40 nations' laws that explicitly mention fair use or fair dealing, and asserts that some of the fair dealing laws, such as Canada's, have evolved (such as through judicial precedents) to be quite close to those of the United States. This compilation includes fair use provisions from Bangladesh, Israel, South Korea, the Philippines, Sri Lanka, Taiwan, Uganda, and the United States.[44] However, Paul Geller's 1999 International Copyright Law and Practice says that while some other countries recognize similar exceptions to copyright, only the United States and Israel fully recognize the concept of fair use.[45]
+Fair use[edit]
+Israel[edit]
+
+In November 2007, the Israeli Knesset passed a new Copyright Law that included a U.S.-style fair use exception. The law, which took effect in May 2008, permits the fair use of copyrighted works for purposes such as private study, research, criticism, review, news reporting, quotation, or instruction or testing by an educational institution. The law sets up four factors, similar to the U.S. fair use factors (see above), for determining whether a use is fair.[46]
+
+On September 2, 2009, the Tel Aviv District court ruled in The Football Association Premier League Ltd. v. Ploni[47] that fair use is a user right. The court also ruled that streaming of live soccer games on the Internet is fair use. In doing so, the court analyzed the four fair use factors adopted in 2007 and cited U.S. case law, including Kelly v. Arriba Soft Corp. and Perfect 10, Inc. v. Amazon.com, Inc..[48]
+Poland[edit]	This section does not cite any sources. Please help improve this section by adding citations to reliable sources. Unsourced material may be challenged and removed. (November 2015)
+
+
+Fair use exists in the Polish law and is covered by the Polish copyright law articles 23 to 35.
+
+Compared to the United States, Polish fair use distinguishes between private and public use. In Poland, when the use is public, its use risks fines. The defendant must also prove that his use was private when accused that it was not, or that other mitigating circumstances apply. Finally, Polish law treats all cases in which private material was made public as a potential copyright infringement, where fair use cannot apply.
+South Korea[edit]
+
+The Korean Copyright Act was amended to include a fair use provision, Article 35-3, in 2012. The law now states that, "the copyrighted work may be used, among other things, for reporting, criticism, education, and research."[49] Then, the law outlines a four-factor test similar to that used under U.S. law:
+
+In determining whether art. 35-3(1) above applies to a use of copyrighted work, the following factors must be considered: the purpose and character of the use, including whether such use is of a commercial nature or is of a non profit nature; the type or purpose of the copyrighted work; the amount and importance of the portion used in relation to the copyrighted work as a whole; the effect of the use of the copyrighted work upon the current market or the current value of the copyrighted work or on the potential market or the potential value of the copyrighted work.[49]
+Fair dealing[edit]
+Main article: Fair dealing
+
+Fair dealing allows specific exceptions to copyright protections. The open-ended concept of fair use is generally not observed in jurisdictions where fair dealing is in place, although this does vary.[44] Fair dealing is established in legislation in Australia, Canada, New Zealand, Singapore, India, South Africa and the United Kingdom, among others.[44]
+Canada[edit]
+Main article: Fair dealing in Canadian copyright law
+
+The Copyright Act of Canada establishes fair dealing in Canada, which allows specific exceptions to copyright protection. In 1985, the Sub-Committee on the Revision of Copyright rejected replacing fair dealing with an open-ended system, and in 1986 the Canadian government agreed that "the present fair dealing provisions should not be replaced by the substantially wider 'fair use' concept".[50] Since then, the Canadian fair dealing exception has broadened. It is now similar in effect to U.S. fair use, even though the frameworks are different.[51]
+
+CCH Canadian Ltd v. Law Society of Upper Canada [2004] 1 S.C.R. 339,2004 SCC 13 is a landmark Supreme Court of Canada case that establishes the bounds of fair dealing in Canadian copyright law. The Law Society of Upper Canada was sued for copyright infringement for providing photocopy services to researchers. The Court unanimously held that the Law Society's practice fell within the bounds of fair dealing.
+United Kingdom[edit]
+Main article: Fair dealing in United Kingdom law
+Policy arguments about fair use[edit]
+The economic benefit of fair use[edit]
+
+A balanced copyright law provides an economic benefit to many high-tech businesses such as search engines and software developers. Fair use is also crucial to non-technology industries such as insurance, legal services, and newspaper publishers.[52] On September 12, 2007, the Computer and Communications Industry Association (CCIA),[52] a group representing companies including Google Inc., Microsoft Inc.,[53] Oracle Corporation, Sun Microsystems, Yahoo![54] and other high-tech companies, released a study that found that fair use exceptions to US copyright laws were responsible for more than $4.5 trillion in annual revenue for the United States economy representing one-sixth of the total US GDP.[52] The study was conducted using a methodology developed by the World Intellectual Property Organization.[52] The study found that fair use dependent industries are directly responsible for more than eighteen percent of US economic growth and nearly eleven million American jobs.[52] "As the United States economy becomes increasingly knowledge-based, the concept of fair use can no longer be discussed and legislated in the abstract. It is the very foundation of the digital age and a cornerstone of our economy," said Ed Black, President and CEO of CCIA.[52] "Much of the unprecedented economic growth of the past ten years can actually be credited to the doctrine of fair use, as the Internet itself depends on the ability to use content in a limited and unlicensed manner."[52]
+Fair Use Week[edit]
+
+Fair Use Week is an international event that celebrates fair use and fair dealing.[55] Fair Use Week was first proposed on a Fair Use Allies listserv, which was an outgrowth of the Library Code of Best Practices Capstone Event, celebrating the development and promulgation of ARL’s Code of Best Practices in Fair Use for Academic and Research Libraries. While the idea was not taken up nationally, Kyle K. Courtney, Copyright Advisor at Harvard University, launched the first ever Fair Use Week at Harvard University in February 2014, with a full week of activities celebrating fair use. The first Fair Use Week included blog posts from national and international fair use experts, live fair use panels, fair use workshops, and a Fair Use Stories Tumblr blog,[56] where people from the world of art, music, film, and academia shared stories about the importance of fair use to their community.[57] The first Fair Use Week was so successful that in 2015 ARL helped organize the Second Annual Fair Use Week, with participation from many more institutions. ARL also launched an official Fair Use Week website.[55]
+See also[edit]	Look up a glossary of legal terms in technology in Wiktionary, the free dictionary.
+
+Abandonware
+Berne three-step test
+Copyright limitations, exceptions, and defenses in the U.S.
+Copyfraud
+Creative Commons
+Berne three-step test
+Copyright limitations, exceptions, and defenses in the U.S.
+Copyfraud
+Creative Commons
+Derivative work
+Fair use (U.S. trademark law)
+Scènes à faire doctrine
+TEACH Act, an additional law for educational and governmental institutions that provides some additional copyright exceptions
+References[edit]
+^ Jump up to: a b Folsom v. Marsh, 9 F. Cas. 342, No. 4901 (C.C.D. Mass. 1841).
+Jump up ^ Gyles v Wilcox, 3 Atk 143;26 ER 489 (Court of Chancery (England) 1740).
+Jump up ^ "17 U.S. Code § 107 - Limitations on exclusive rights: Fair use". Legal Information 
+Institute. Cornell University Law School. Retrieved 16 November 2015.
+Jump up ^ Patterson, L. Ray (1998-04-01). "Folsom v. Marsh and Its Legacy" (PDF). Journal of 
+Intellectual Property Law 5 (2): 431–452. Retrieved 2011-03-06.
+^ Jump up to: a b c d Leval, Pierre N. (1990). "Toward a Fair Use Standard". Harvard Law Review 103 (5): 
+1105–1136. doi:10.2307/1341457. JSTOR 1341457.
+^ Jump up to: a b c d Campbell v. Acuff-Rose Music, Inc., 510 U.S. 569 (1994)
+^ Jump up to: a b c Samuelson, Pamela (2009). "Unbundling Fair Uses" (PDF). Fordham Law Review 
+77. Retrieved 18 November 2015.
+Jump up ^ Blanch v. Koons, 467 F.3d 244 (2d Cir. 2006-10-26).
+^ Jump up to: a b Aufderheide, Patricia; Jaszi, Peter (2011). "Appendix D: Myths and Realities About Fair 
+Use". Reclaiming Fair Use: How to Put Balance Back in Copyright. Chicago: University of Chicago Press.
+Jump up ^ Warner Bros. and J. K. Rowling v. RDR Books, 575 F. Supp. 2d 513 (S.D.N.Y. 2008)
+Jump up ^ 293 F. Supp. 130 (S.D.N.Y. 1968)
+Jump up ^ Salinger v. Random House, Inc., 811 F.2d 90 (2d Cir. 1987).
+Jump up ^ New Era Publications Int'l v. Henry Holt & Co, 695 F. Supp. 1493 (S.D.N.Y. 1988)
+^ Jump up to: a b Harper & Row v. Nation Enterprises, 471 U.S. 539 (1985)
+Jump up ^ Sony Corp. of America v. Universal City Studios, Inc., 464 U.S. 417, 451 (1984)
+Jump up ^ Video Pipeline v. Buena Vista, 342 F.3d 191 (3d Cir. 2000-09-19).
+Jump up ^ Princeton University Press v. Michigan Document Services, 99 F.3d 1381 (6th Cir. 
+1996). 
+Jump up ^ See USC 17.10.1008, amended by the Audio Home Recording Act.
+Jump up ^ Wentworth, Donna (2004-10-27). "The Key to a Good (Fair Use) Defense". Electronic 
+Frontier Foundation. Retrieved 18 November 2015. "Fair use is generally understood as an affirmative defense. (quoting Fred von Lohmann)"
+Jump up ^ Wall Data v. Los Angeles County Sheriff's Dept (9th Cir. May 17, 2006) (PDF at Ninth 
+Circuit).
+^ Jump up to: a b Grand Upright Music, Ltd. v. Warner Bros. Records Inc., 780 F. Supp. 182 (S.D.N.Y. 
+1991).
+Jump up ^ Rosati, Eleonora (17 November 2013). "A Closer Look at the Google Books Library Project 
+Decision". The IPKAT. Retrieved 15 November 2014.
+Jump up ^ "Google's Fair Use Victory". Law Down Under. Retrieved 16 November 2015.
+Jump up ^ Authors Guild, Inc. v. HathiTrust, 902 F.Supp.2d 445 (S.D.N.Y. 2012-10-10).
+Jump up ^ Anderson, Rick (21 July 2014). "The Authors Guild Loses (Again), and HathiTrust Wins–
+But What Does It Mean?". the scholarly kitchen. Retrieved 15 November 2014.
+Jump up ^ Mattel Inc v. Walking Mountain Productions, 353 F.3d 792 (9th Cir. Dec 29, 2003).
+Jump up ^ Rogers v. Koons, 960 F.2d 301 (2d Cir. Apr 2, 1992).
+Jump up ^ Egelko, Bob (August 21, 2008). "Woman can sue over YouTube clip de-posting". San 
+Francisco Chronicle. Retrieved 2015-11-16.
+Jump up ^ Wikibooks:Reverse Engineering/Legal Aspects
+Jump up ^ "Coders’ Rights Project Reverse Engineering FAQ". Electronic Frontier Foundation. 
+Retrieved 16 November 2015.
+Jump up ^ Anderson, Nate (2009-05-18). "Harvard prof tells judge that P2P filesharing is "fair use"". 
+Ars Technica. Retrieved 2009-06-16.
+Jump up ^ Anderson, Nate (2009-05-22). "Lawyer: RIAA must pay back all "$100M+" it has allegedly 
+collected". Ars Technica. Retrieved 2009-06-16.
+Jump up ^ Engle, Eric (2009-10-17). "Sony BMG Music Entertainment et al. v. Tannenbaum". 
+Harvard Journal of Law and Technology. Retrieved 2009-06-16.
+Jump up ^ Gyles v Wilcox, 3 Atk 143;26 ER 489 (Court of Chancery (England) 1740).
+Jump up ^ "17 U.S. Code § 107 - Limitations on exclusive rights: Fair use". Legal Information 
+Institute. Cornell University Law School. Retrieved 16 November 2015.
+Jump up ^ Patterson, L. Ray (1998-04-01). "Folsom v. Marsh and Its Legacy" (PDF). Journal of 
+Intellectual Property Law 5 (2): 431–452. Retrieved 2011-03-06.
+^ Jump up to: a b c d Leval, Pierre N. (1990). "Toward a Fair Use Standard". Harvard Law Review 103 (5): 
+1105–1136. doi:10.2307/1341457. JSTOR 1341457.
+^ Jump up to: a b c d Campbell v. Acuff-Rose Music, Inc., 510 U.S. 569 (1994)
+^ Jump up to: a b c Samuelson, Pamela (2009). "Unbundling Fair Uses" (PDF). Fordham Law Review 
+77. Retrieved 18 November 2015.
+Jump up ^ Blanch v. Koons, 467 F.3d 244 (2d Cir. 2006-10-26).
+^ Jump up to: a b Aufderheide, Patricia; Jaszi, Peter (2011). "Appendix D: Myths and Realities About Fair 
+Use". Reclaiming Fair Use: How to Put Balance Back in Copyright. Chicago: University of Chicago Press.
+Jump up ^ Warner Bros. and J. K. Rowling v. RDR Books, 575 F. Supp. 2d 513 (S.D.N.Y. 2008)
+Jump up ^ 293 F. Supp. 130 (S.D.N.Y. 1968)
+Jump up ^ Salinger v. Random House, Inc., 811 F.2d 90 (2d Cir. 1987).
+Jump up ^ New Era Publications Int'l v. Henry Holt & Co, 695 F. Supp. 1493 (S.D.N.Y. 1988)
+^ Jump up to: a b Harper & Row v. Nation Enterprises, 471 U.S. 539 (1985)
+Jump up ^ Sony Corp. of America v. Universal City Studios, Inc., 464 U.S. 417, 451 (1984)
+Jump up ^ Video Pipeline v. Buena Vista, 342 F.3d 191 (3d Cir. 2000-09-19).
+Jump up ^ Princeton University Press v. Michigan Document Services, 99 F.3d 1381 (6th Cir. 
+1996). 
+Jump up ^ See USC 17.10.1008, amended by the Audio Home Recording Act.
+Jump up ^ Wentworth, Donna (2004-10-27). "The Key to a Good (Fair Use) Defense". Electronic 
+Frontier Foundation. Retrieved 18 November 2015. "Fair use is generally understood as an affirmative defense. (quoting Fred von Lohmann)"
+Jump up ^ Wall Data v. Los Angeles County Sheriff's Dept (9th Cir. May 17, 2006) (PDF at Ninth 
+Circuit).
+^ Jump up to: a b Grand Upright Music, Ltd. v. Warner Bros. Records Inc., 780 F. Supp. 182 (S.D.N.Y. 
+1991).
+Jump up ^ Rosati, Eleonora (17 November 2013). "A Closer Look at the Google Books Library Project 
+Decision". The IPKAT. Retrieved 15 November 2014.
+Jump up ^ "Google's Fair Use Victory". Law Down Under. Retrieved 16 November 2015.
+Jump up ^ Authors Guild, Inc. v. HathiTrust, 902 F.Supp.2d 445 (S.D.N.Y. 2012-10-10).
+Jump up ^ Anderson, Rick (21 July 2014). "The Authors Guild Loses (Again), and HathiTrust Wins–
+But What Does It Mean?". the scholarly kitchen. Retrieved 15 November 2014.
+Jump up ^ Mattel Inc v. Walking Mountain Productions, 353 F.3d 792 (9th Cir. Dec 29, 2003).
+Jump up ^ Rogers v. Koons, 960 F.2d 301 (2d Cir. Apr 2, 1992).
+Jump up ^ Egelko, Bob (August 21, 2008). "Woman can sue over YouTube clip de-posting". San 
+Francisco Chronicle. Retrieved 2015-11-16.
+Jump up ^ Wikibooks:Reverse Engineering/Legal Aspects
+Jump up ^ "Coders’ Rights Project Reverse Engineering FAQ". Electronic Frontier Foundation. 
+Retrieved 16 November 2015.
+Jump up ^ Anderson, Nate (2009-05-18). "Harvard prof tells judge that P2P filesharing is "fair use"". 
+Ars Technica. Retrieved 2009-06-16.
+Jump up ^ Anderson, Nate (2009-05-22). "Lawyer: RIAA must pay back all "$100M+" it has allegedly 
+collected". Ars Technica. Retrieved 2009-06-16.
+Jump up ^ Engle, Eric (2009-10-17). "Sony BMG Music Entertainment et al. v. Tannenbaum". 
+Harvard Journal of Law and Technology. Retrieved 2009-06-16.
+Jump up ^ Madison, Michael J. (2004). "A Pattern-Oriented Approach to Fair Use" (PDF). William 
+and Mary Law Review 45. Retrieved 16 November 2015.
+Jump up ^ "Documentary Filmmakers' Statement of Best Practices in Fair Use". Center for Media 
+& Social Impact. Retrieved 2015-11-18.
+Jump up ^ "Code of Best Practices in Fair Use". Association of Research Libraries. Retrieved 
+2015-11-18.
+Jump up ^ "Statement on the Fair Use of Images for Teaching, Research, and Study" (PDF). Visual 
+Resources Association. Retrieved 2015-11-18.
+Jump up ^ The International Communication Association. "Code of Best Practices in Fair Use for 
+Scholarly Research in Communication". Center for Media and Social Impact. Archived from the original on 2015-11-16. Retrieved 16 November 2015.
+Jump up ^ "Success of Fair Use Consensus Documents". Center for Social Media. Retrieved 
+2013-09-02.
+Jump up ^ Aufderheide, Patricia; Jaszi, Peter (2011). Reclaiming Fair Use: How to Put Balance Back 
+in Copyright. Chicago: University of Chicago Press. ISBN 9780226032283.
+Jump up ^ Bridgeport Music, Inc. v. Dimension Films, 230 F.Supp.2d, 841.
+Jump up ^ Bridgeport Music, Inc. v. Dimension Films, 383 F.3d 390, 398 (6th Cir. 2004).
+Jump up ^ "International exemptions for education with links to relevant laws". Teflpedia.com. 
+2009-05-25. Retrieved 2009-06-16.
+^ Jump up to: a b c Band, Jonathan; Gerafi, Jonathan. "The Fair Use/Fair Dealing Handbook" (PDF). 
+infojustice.org. American University Program on Information Justice and Intellectual Property.
+Jump up ^ Geller, Paul. "International Copyright Law and Practice" (2009 ed.). Matthew Bender & Co 
+Inc.
+Jump up ^ Band, Jonathan (2008-03-26). "Israel now has the right copyright law". The Jerusalem 
+Post. Archived from the original on 2012-01-28. Retrieved 16 November 2015.
+Jump up ^ "The Football Association Premier League Ltd. v. Ploni and others". Archived from the 
+original on 2010-01-14. Retrieved 16 November 2015.
+Jump up ^ Lichtenstein, Yoram. "Israeli Judge Permits Unlicensed Sports Event Streaming—FAPL v. 
+Ploni (Guest Blog Post)". Technology and Marketing Law Blog. Retrieved 16 November 2015.
+^ Jump up to: a b Ben (2013-02-23). "How will South Korea Implement fair use?". The 1709 Blog. 
+Retrieved 18 November 2015.
+Jump up ^ Magazines Canada (2009-09-15). "Why Canada Should Not Adopt Fair Use: A Joint 
+Submission to the Copyright Consultations" (PDF). Retrieved 16 November 2015.
+Jump up ^ Masnick, Mike (2015-05-28). "Book Publishers Whine To USTR That It's Just Not Fair That 
+Canada Recognizes Fair Dealing For Educational Purposes". Tech Dirt. Retrieved 16 November 2015.
+^ Jump up to: a b c d e f g "Computer and Communications Industry Association. "Fair Use Economy 
+Represents One-Sixth of US GDP". September 12, 2007". Ccianet.org. 2007-09-12. Archived from the original on April 15, 2008. Retrieved 2009-06-16.
+Jump up ^ McBride, Sarah; Thompson, Adam (2007-08-01). "Google, Others Contest Copyright 
+Warnings". Wall Street Journal. Retrieved 2015-11-16.
+Jump up ^ "Computer and Communications Industry Association. "CCIA Members."". Ccianet.org. 
+Archived from the original on March 31, 2008. Retrieved 2009-06-16.
+^ Jump up to: a b "About". Fair Use Week. Retrieved 18 November 2015.
+Jump up ^ "Fair Use Week 2015". Retrieved 16 November 2015.
+Jump up ^ Courtney, Kyle K. "About Fair Use Week". Copyright at Harvard Library. Retrieved 
+18 November 2015.
+Further reading[edit]
+Depoorter, Ben; Parisi, Francesco (2002). "Fair Use and Copyright Protection: A Price Theory Explanation". International Review of Law and Economics 21 (4): 453–473. doi:10.1016/S0144-8188(01)00071-0.
+Gordon, Wendy J. (1982). "Fair Use as Market Failure: A Structural and Economic Analysis of the 'Betamax' Case and Its Predecessors". Columbia Law Review 82 (8): 1600–1657. doi:10.2307/1122296. JSTOR 1122296.
+Samuelson, Pamela (1995). "Copyright's fair use doctrine and digital data". Publishing Research Quarterly 11 (1): 27–39. doi:10.1007/BF02680415.
+United States. Congress. House of Representatives (2014). The Scope of Fair Use: Hearing Before the Subcommittee on Courts, Intellectual Property, and the Internet of the Committee on the Judiciary, House of Representatives, One Hundred Thirteenth Congress, Second Session, January 28, 2014.
+Harrison, Nate. "What Is Transformative?". The Enemy. Retrieved December 12, 2015.
+External links[edit]	Wikiversity has learning materials about Fair use
+	Look up fair use in Wiktionary, the free dictionary.
+
+U.S. Copyright Office Fair Use Index, a searchable database of notable fair use cases in U.S. federal courts
+The Fair Use/Fair Dealing Handbook, a compilation of national statutes that explicitly refer to fair use or fair dealing
+Categories: Fair use
+United States intellectual property law
+United States copyright law
+Copyright law
+Equitable defenses
+Legal doctrines and principles
+Digital rights
+Navigation menu
+Not logged in
+Talk
+Contributions
+Create account
+Log in
+Article
+Talk
+Read
+Edit
+View history
+ 
+Main page
+Contents
+Featured content
+Current events
+Random article
+Donate to Wikipedia
+Wikipedia store
+Interaction
+Help
+About Wikipedia
+Community portal
+Recent changes
+Contact page
+Tools
+What links here
+Related changes
+Upload file
+Special pages
+Permanent link
+Page information
+Wikidata item
+Cite this page
+Print/export
+Create a book
+Download as PDF
+Printable version
+Languages
+Alemannisch
+العربية
+অসমীয়া
+Azərbaycanca
+Български
+Bosanski
+Català
+Čeština
+Dansk
+Deutsch
+Eesti
+Español
+Esperanto
+Euskara
+فارسی
+Français
+Galego
+ગુજરાતી
+한국어
+Hrvatski
+Ilokano
+Bahasa Indonesia
+Íslenska
+Italiano
+עברית
+Basa Jawa
+ქართული
+Kiswahili
+Lëtzebuergesch
+Magyar
+Македонски
+മലയാളം
+Bahasa Melayu
+Nederlands
+日本語
+Norsk bokmål
+Polski
+Português
+Română
+Русский
+Shqip
+සිංහල
+Simple English
+Slovenčina
+Slovenščina
+Српски / srpski
+Srpskohrvatski / српскохрватски
+Suomi
+Svenska
+தமிழ்
+తెలుగు
+ไทย
+Türkçe
+Українська
+اردو
+Vèneto
+Tiếng Việt
+粵語
+Žemaitėška
+中文
+Edit links
+ This page was last modified on 26 January 2016, at 17:18.
+Text is available under the Creative Commons Attribution-ShareAlike License; additional terms may apply. By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+Privacy policy
+About Wikipedia
+Disclaimers
+Contact Wikipedia
+Developers
+Cookie statement
+Mobile view
+ 
