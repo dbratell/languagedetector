@@ -31,7 +31,7 @@ import matplotlib.pyplot as plt
 
 #import experiment5
 
-MAX_FEATURE_COUNT = 10 # Max is 4029 right now because everything else is filtered.
+MAX_FEATURE_COUNT = 30 # Max is 4029 right now because everything else is filtered.
 MAX_TIME_SECONDS = 20
 MAX_SAMPLE_COUNT = 0 #0 # Unlimited 500
 
@@ -55,14 +55,12 @@ class Features(object):
 
     @staticmethod
     def make_word_list_of_text(text):
-    #    return text.lower().split()
-    #    return re.split(PATTERN, text)
-        def clean_word(w):
-            return w.replace("\u0092", "'").replace("\02b9", "'")
-        # Keep commas and such or not?
-        word_list = SPLIT_PATTERN.split(text.lower())
+        word_list = []
+        # Simple letter frequencies.
+        for x in text:
+            if not x.isspace():
+                word_list.append(x)
         return word_list
-#        return [clean_word(x) for x in word_list if x]
 
     def map_to_frequency(self, text):
         words = Counter()
@@ -273,11 +271,11 @@ def main():
                                 important_features.append(calc_feature_importance(fnn, features))
         #                        print(fnn.params)
 
-        print_most_important_features(important_features, features)
+#        print_most_important_features(important_features, features)
     if best_solution is not None:
         pass
-#        print("best_solution with success %s is %s" % (str(best_test_f1_algo),
-#                                                  best_solution))
+        print("best_solution with success %s is %s" % (str(best_test_f1_algo),
+                                                       best_solution))
 #    plt.ylim(0, min(100, max_error * 1.1))
     plt.xlim(0, max_epochs + 1)
 #    plt.plot(train_errors, '-', label="Train data error")
@@ -398,13 +396,13 @@ def make_ds_from_samples(samples, split_pct,
         return (ds, ds_labels)
 
     train_ds, train_ds_labels = make_ds_with_samples(samples[0:split_index])
-    print("train_ds:")
-    print(train_ds)
+#    print("train_ds:")
+#    print(train_ds)
 
     test_ds, test_ds_labels = make_ds_with_samples(
         samples[split_index:len(samples)])
-    print("test_ds:")
-    print(test_ds)
+#    print("test_ds:")
+#    print(test_ds)
 
     return (train_ds, test_ds, train_ds_labels, test_ds_labels)
 
@@ -727,9 +725,9 @@ def build_features(data_files):
     print(classes)
 
     words_to_use_as_features = set(
-        [x for x, y in words.most_common(MAX_FEATURE_COUNT)])
-    words_to_use_as_features = random.sample(list(words),
-                                             MAX_FEATURE_COUNT)
+        [x for x, y in words.most_common(MAX_FEATURE_COUNT / 2)])
+    words_to_use_as_features.update(random.sample(list(words),
+                                                  MAX_FEATURE_COUNT/2))
     assert all([x in words for x in words_to_use_as_features])
 #    words_to_use_as_features = words_to_use_as_features - set(PROMISING_FANTASY) # Trying to see if it can find other words.
     word_list = list(words_to_use_as_features)
@@ -839,14 +837,6 @@ def get_samples_from_txt_meta(txt_and_meta_files, features, max_count):
               (len(samples), count), end="")
 
     return samples
-
-# def build_dataset(textclasses, features):
-#     ds = SupervisedDataSet(len(features.word_list), len(features.class_list))
-#     for text, text_classes in textclasses:
-#         sample = convert_text_to_sample(text, text_classes, features)
-#         ds.addSample(sample[0], sample[1])
-
-#     return ds
 
 if __name__ == "__main__":
     main()
