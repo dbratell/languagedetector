@@ -11,6 +11,7 @@ import re
 import time
 import math
 import multiprocessing
+import sys
 import threading
 from collections import Counter
 
@@ -31,7 +32,10 @@ import matplotlib.pyplot as plt
 
 #import experiment5
 
-MAX_FEATURE_COUNT = 30 # Max is 4029 right now because everything else is filtered.
+# Number of unicode characters: A few thousand?
+# Number of bigrams: A million?
+
+MAX_FEATURE_COUNT = 300 # Max is 4029 right now because everything else is filtered.
 MAX_TIME_SECONDS = 60
 MAX_SAMPLE_COUNT = 0 #0 # Unlimited 500
 
@@ -204,11 +208,11 @@ def main():
              train_ds_labels, test_ds_labels) = make_ds_from_samples(
                 samples, SPLIT_PCT, ds_size, features)
             for hidden_layers in [
-                [],
+#                [],
                 [train_ds.outdim * 3],
     #            [train_ds.outdim * 3],
     #            [train_ds.outdim * 9],
-    #            [train_ds.outdim * 9, train_ds.outdim * 3],
+                [train_ds.outdim * 9, train_ds.outdim * 3],
         #        [train_ds.outdim * 27, train_ds.outdim * 9],
         #        [train_ds.outdim * 27, train_ds.outdim * 9, train_ds.outdim * 3],
         #        [train_ds.outdim * 10],
@@ -258,14 +262,9 @@ def main():
                                                       "desc": description,
                                                       # Could save fnn.params but that would be spammy in the output.
                                                       "fnn": fnn,
-                                                      "festures": features,
+                                                      "features": features,
                                                       }
                                     best_test_f1_algo = package_res
-
-                        #    print_classifications(TRAIN_TEXTCLASSES + TEST_TEXTCLASSES, fnn,
-                        #                          features)
-                        #    print_classifications_from_txt_meta(calibre_txt_and_meta_files, fnn,
-                        #                                        features)
 
                                 # plt.plot(epochs, train_algo_errors, linestyle,
                                 #          label="Train error [%s]" % (description))
@@ -290,11 +289,15 @@ def main():
         print("best_solution with success %s is %s %s" % (str(best_test_f1_algo),
                                                           best_solution["desc"],
                                                           best_solution["words"]))
-        test_text = input("Write something to test with: ")
-        print_classification_for_text(best_solution["desc"],
-                                      test_text,
-                                      best_solution["fnn"],
-                                      best_solution["features"])
+        while True:
+            test_text = raw_input("Write something to test with (ENTER to end): ")
+            if not test_text:
+                break
+            print_classification_for_text(test_text,
+                                          test_text,
+                                          best_solution["fnn"],
+                                          best_solution["features"])
+            sys.stdout.flush()
         
 
 #    plt.ylim(0, min(100, max_error * 1.1))
@@ -490,6 +493,8 @@ def print_classification_for_text(desc, text, fnn, features):
     if not classes:
         classes = ["not of a supported class"]
     print("'%s' is a %s" % (desc, ", ".join(classes)))
+    for machine_res_for_class, class_name in zip(machine_res, features.class_list):
+        print("%g: %s" % (machine_res_for_class, class_name))
 
 def print_classifications(textclasses, fnn, features):
     for text, _ in textclasses:
@@ -751,7 +756,7 @@ def build_features(data_files):
                                                   MAX_FEATURE_COUNT/2))
     assert all([x in words for x in words_to_use_as_features])
 #    words_to_use_as_features = words_to_use_as_features - set(PROMISING_FANTASY) # Trying to see if it can find other words.
-    word_list = list(words_to_use_as_features)
+    word_list = sorted(words_to_use_as_features)
     word_index = range(len(word_list))
     if len(word_list) < 200:
         word_list_for_display = ", ".join(word_list)
