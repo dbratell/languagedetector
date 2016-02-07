@@ -32,7 +32,7 @@ import matplotlib.pyplot as plt
 #import experiment5
 
 MAX_FEATURE_COUNT = 30 # Max is 4029 right now because everything else is filtered.
-MAX_TIME_SECONDS = 20
+MAX_TIME_SECONDS = 60
 MAX_SAMPLE_COUNT = 0 #0 # Unlimited 500
 
 SPLIT_CHARS = r"\s,\?/!;:\[\]\(\)"
@@ -60,6 +60,15 @@ class Features(object):
         for x in text:
             if not x.isspace():
                 word_list.append(x)
+        # Bigrams
+        chunk_len = 2
+        for index in xrange(len(text) - chunk_len + 1):
+            bigram = text[index:index + chunk_len - 1]
+            if not bigram.isspace():
+                pass
+#                word_list.append(x)
+        # Trigrams
+        # Same as above but with chunk_len = 3
         return word_list
 
     def map_to_frequency(self, text):
@@ -135,15 +144,17 @@ assert testStdDevCalc.getVariance() < 2.1 # approximately 2.0
 
 def get_data_files():
     result = {}
-    languages = os.listdir("data")
-    for language in languages:
-        language_dir = os.path.join("data", language)
-        if os.path.isdir(language_dir):
-            data_files = os.listdir(language_dir)
-            for data_file in data_files:
-                data_file_name = os.path.join(language_dir, data_file)
-                if data_file_name.endswith(".txt") and os.path.isfile(data_file_name):
-                    result.setdefault(language, []).append(data_file_name)
+    root_dirs = ("data", "scrape_data")
+    for root_dir in root_dirs:
+        languages = os.listdir(root_dir)
+        for language in languages:
+            language_dir = os.path.join(root_dir, language)
+            if os.path.isdir(language_dir):
+                data_files = os.listdir(language_dir)
+                for data_file in data_files:
+                    data_file_name = os.path.join(language_dir, data_file)
+                    if data_file_name.endswith(".txt") and os.path.isfile(data_file_name):
+                        result.setdefault(language, []).append(data_file_name)
     return result
 
 def main():
@@ -246,6 +257,8 @@ def main():
                                     best_solution = { "words": features.word_list,
                                                       "desc": description,
                                                       # Could save fnn.params but that would be spammy in the output.
+                                                      "fnn": fnn,
+                                                      "festures": features,
                                                       }
                                     best_test_f1_algo = package_res
 
@@ -274,8 +287,16 @@ def main():
 #        print_most_important_features(important_features, features)
     if best_solution is not None:
         pass
-        print("best_solution with success %s is %s" % (str(best_test_f1_algo),
-                                                       best_solution))
+        print("best_solution with success %s is %s %s" % (str(best_test_f1_algo),
+                                                          best_solution["desc"],
+                                                          best_solution["words"]))
+        test_text = input("Write something to test with: ")
+        print_classification_for_text(best_solution["desc"],
+                                      test_text,
+                                      best_solution["fnn"],
+                                      best_solution["features"])
+        
+
 #    plt.ylim(0, min(100, max_error * 1.1))
     plt.xlim(0, max_epochs + 1)
 #    plt.plot(train_errors, '-', label="Train data error")
@@ -341,7 +362,7 @@ def trainNetwork(train_ds, test_ds,
     try:
         start_time = time.time()
         for i in range(200):
-            for _ in xrange(500):
+            for _ in xrange(50):
                 train_algo_error = trainer.train() * 100.0
                 if math.isnan(train_algo_error):
                     break
@@ -460,7 +481,7 @@ def print_most_important_features(feature_percentile_list, features):
             print("%s  %g" % (word, weight))
 
 def print_classification_for_text(desc, text, fnn, features):
-    freq = map_to_frequency(text, features.word_list, features.word_to_index)
+    freq = features.map_to_frequency(text)
     machine_res = fnn.activate(freq)
     classes = []
     for i in range(len(features.class_list)):
